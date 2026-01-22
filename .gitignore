@@ -73,3 +73,27 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# --- Unreal Engine Basics ---
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+
+# --- IDE / Visual Studio ---
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.vcxproj
+*.user
+
+# --- Mac / Windows System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Plugins Locales ---
+# (Si usan plugins del marketplace que cada quien instala en su PC, descomenta esto)
+# Plugins/
