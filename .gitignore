@@ -80,6 +80,7 @@ Intermediate/
 Saved/
 DerivedDataCache/
 Build/
+apk/
 
 # --- IDE / Visual Studio ---
 .vs/
