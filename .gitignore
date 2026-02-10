@@ -6,7 +6,40 @@
 *.lo
 *.o
 *.obj
+# --- Carpetas Temporales y de Compilación ---
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+FileOpenOrder/
 
+# --- Archivos de Proyecto de Visual Studio / IDEs ---
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# --- Archivos de Sistema y Logs ---
+InstructionPointer.txt
+*.log
+*.obj
+*.pdb
+
+# --- Localización y Plugins ---
+# Opcional: Ignora archivos de plugins si los descargas aparte
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# --- Archivos Pesados Específicos ---
+*.exe
+*.dll
+*.app
+*.ipa
 # Precompiled Headers
 *.gch
 *.pch
